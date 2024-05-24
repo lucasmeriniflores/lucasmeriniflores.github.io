@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <title>Nevasca.</title>
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">Nevasca.</a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#hab">Habilidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#port">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Habilidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>DEVELOPER & DESIGNER<span>.</span></h1>
+                        <p>Criatividade e inovação caminham juntas. Com uma fusão exclusiva de design marcante, usabilidade prática e otimização para desempenho, estou preparado(a) para desenvolver a presença online que você sempre desejou.</p>
+
+                        <div id="botao-menu" class="btn-contato">
+                            <a href="https://w.app/nevascadev">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="images/pessoa2.png" alt="">
+                        <img id="vs" src="images/vspessoa.png" alt="">
+                        <img id="ps" src="images/pspessoa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--------------------------------------------------------------------------------------------------------------------->
+        <section class="especiliadades">
+            <div class="interface">
+                <h2 id="hab" class="titulo">MINHAS <span>HABILIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-braces"></i>
+                        <h3>Front End</h3>
+                        <p>Como desenvolvedor(a) front-end, crio interfaces de usuário responsivas e interativas usando HTML, CSS e JavaScript. Com experiência em frameworks como React e NextJS, foco em desempenho e usabilidade.</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-brush"></i>
+                        <h3>Design Gráfico</h3>
+                        <p>No Photoshop, transformo criatividade em visuais impactantes. Manipulo imagens e crio gráficos personalizados, sempre com atenção aos detalhes e à composição, para alcançar perfeição visual.</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-camera"></i>
+                        <h3>Social Media</h3>
+                        <p>Na gestão de social media, desenvolvo estratégias criativas para aumentar o engajamento. Crio campanhas alinhadas ao público-alvo e ajusto continuamente as estratégias com base em métricas de desempenho para alcançar os objetivos da marca.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--------------------------------------------------------------------------------------------------------------------->
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/FOTO2.png" alt="">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2 id="sobre">OLÁ, <span>SOU LUCAS FLORES.</span></h2>
+                        <p>Olá! Meu nome é Lucas, tenho 17 anos e nasci em Joinville. Atualmente, estou cursando o Ensino Médio junto com o curso técnico em Informática no Senac, sou apaixonado por tecnologia e desenvolvimento de software.</p>
+                        <p>Estou sempre em busca de aprender e explorar novas áreas no campo da informática. Este portfólio é uma coleção dos meus projetos e trabalhos, onde compartilho minhas habilidades e experiências adquiridas ao longo dos meus estudos.</p>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/lucas-merini-flores-b85197300/"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/lucasmeriniflores"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/nevascazz/"><button><i class="bi bi-instagram"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--------------------------------------------------------------------------------------------------------------------->
+        <section class="portfolio">
+            <div class="interface">
+                <h2 id="port" class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/frontend.png);">
+                        <div class="overlay">Front End</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/interclasse.png);">
+                        <div class="overlay">Design</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/socialmedia.png);">
+                        <div class="overlay">Social Media</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <a href="#" id="logo">Nevasca.</a>
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/lucas-merini-flores-b85197300/"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/lucasmeriniflores"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/nevascazz/"><button><i class="bi bi-instagram"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contactnevasca@gmail.com">contactnevasca@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
